@@ -12,3 +12,4 @@ class FeatchWeather extends WetherEvent {
   @override
   List<Object?> get props => [position];
 }
+

@@ -16,8 +16,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  TextEditingController controller = TextEditingController();
-
   Widget getWeatherIcon(int code) {
     switch (code) {
       case >= 200 && < 300:
@@ -68,7 +66,7 @@ class _HomePageState extends State<HomePage> {
                   return Column(
                     crossAxisAlignment: .start,
                     children: [
-                      SizedBox(height: 50),
+                      const SizedBox(height: 50),
                       CustomText(
                         text: "📍 ${state.weather.areaName}",
                         fontWeight: FontWeight.normal,

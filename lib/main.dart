@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:testbloc/bloc/wether_bloc.dart';
 import 'package:testbloc/screens/home_page.dart';
-
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MainApp());
